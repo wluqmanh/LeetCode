@@ -1,24 +1,26 @@
-""""
-https://leetcode.com/problems/two-sum/
-Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
-You may assume that each input would have exactly one solution, and you may not use the same element twice.
-"""
+# https://leetcode.com/problems/two-sum/
+# ref: https://www.youtube.com/watch?v=wgFPrzTjm7s
 
 
-def two_sum(self, nums, target):
-    hashmap = {}
-    for index, value in enumerate(nums):
-        print('\nIndex: ', index, ', Value: ', value)
-        key = target - value
-        print('Key = %d - %d\n\t= %d' % (target, value, key))
-        if key in hashmap:
-            print('hashmap: ', hashmap)
-            print('hashmap[%d]: %d' % (key, hashmap[key]))
-            return [hashmap[key], index]
-        else:
-            hashmap[value] = index
-            print('hashmap: ', hashmap)
+def two_sum(self, l1, l2) -> ListNode:
+    dummy = ListNode()
+    cur = dummy
+    carry = 0
+    while l1 or l2 or carry:
+        v1 = l1.val if l1 else 0
+        v2 = l2.val if l2 else e0
+        # New digit
+        val = v1 + v2 + carry
+        carry = val // 10
+        val = val % 10
+        cur.next = ListNode(val)
 
-nums = [11, 15, 6, 2, 7]
-target = 9
-two_sum(two_sum, nums, target)
+        # Update pointers
+        cur = cur.next
+        l1 = l1.next if l1 else None
+        l2 = l2.next if l2 else None
+    return dummy.next
+
+l1 = [11, 15, 6, 2, 7]
+l2 = 9
+two_sum(two_sum, l1, l2)
