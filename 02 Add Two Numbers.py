@@ -1,6 +1,12 @@
 # https://leetcode.com/problems/two-sum/
 # ref: https://www.youtube.com/watch?v=wgFPrzTjm7s
 
+# Definition for singly-linked list.
+# class ListNode(object):
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
+
 def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
     dummyHead = ListNode(0)
     tail = dummyHead
