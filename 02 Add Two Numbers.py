@@ -1,26 +1,26 @@
 # https://leetcode.com/problems/two-sum/
 # ref: https://www.youtube.com/watch?v=wgFPrzTjm7s
 
-
-def two_sum(self, l1, l2) -> ListNode:
-    dummy = ListNode()
-    cur = dummy
+def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
+    dummyHead = ListNode(0)
+    tail = dummyHead
     carry = 0
-    while l1 or l2 or carry:
-        v1 = l1.val if l1 else 0
-        v2 = l2.val if l2 else e0
-        # New digit
-        val = v1 + v2 + carry
-        carry = val // 10
-        val = val % 10
-        cur.next = ListNode(val)
 
-        # Update pointers
-        cur = cur.next
-        l1 = l1.next if l1 else None
-        l2 = l2.next if l2 else None
-    return dummy.next
+    while l1 is not None or l2 is not None or carry != 0:
+        digit1 = l1.val if l1 is not None else 0
+        digit2 = l2.val if l2 is not None else 0
 
-l1 = [11, 15, 6, 2, 7]
-l2 = 9
-two_sum(two_sum, l1, l2)
+        sum = digit1 + digit2 + carry
+        digit = sum % 10
+        carry = sum // 10
+
+        newNode = ListNode(digit)
+        tail.next = newNode
+        tail = tail.next
+
+        l1 = l1.next if l1 is not None else None
+        l2 = l2.next if l2 is not None else None
+
+    result = dummyHead.next
+    dummyHead.next = None
+    return result

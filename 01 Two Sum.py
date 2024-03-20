@@ -3,7 +3,7 @@
 
 
 def two_sum(self, nums, target):
-    prevMap = {}
+    prev_map = {}
 
     for i, n in enumerate(nums):
         print('\ni: ', i, ', Value: ', n)
@@ -11,13 +11,13 @@ def two_sum(self, nums, target):
         diff = target - n
         print('Key = %d - %d\n\t= %d' % (target, n, diff))
 
-        if diff in prevMap:
-            print('prevMap: ', prevMap)
-            print('prevMap[%d]: %d' % (diff, prevMap[diff]))
-            return [prevMap[diff], i]
+        if diff in prev_map:
+            print('prev_map: ', prev_map)
+            print('prev_map[%d]: %d' % (diff, prev_map[diff]))
+            return [prev_map[diff], i]
         
-        prevMap[n] = i
-        print('prevMap: ', prevMap)
+        prev_map[n] = i
+        print('prev_map: ', prev_map)
 
 nums = [11, 15, 6, 2, 7]
 target = 9
