@@ -1,6 +1,10 @@
 # https://leetcode.com/problems/two-sum/
 # ref: https://www.youtube.com/watch?v=wgFPrzTjm7s
 
+class ListNode(object):
+    def __init__(self, val=0, next=None):
+        self.val = val
+        self.next = next
 
 def two_sum(self, l1, l2) -> ListNode:
     dummy = ListNode()
