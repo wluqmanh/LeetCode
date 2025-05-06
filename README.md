@@ -1,2 +1,1 @@
-All problems listed can be found here:
-https://leetcode.com/problemset/?listId=wpwgkgt&page=1
+Currently completing: https://leetcode.com/studyplan/top-interview-150/
