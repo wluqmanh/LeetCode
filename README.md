@@ -5,3 +5,6 @@ Hash Table
 
 Array/String
 - [88. Merge Sorted Array (Easy)](88.%20Merge%20Sorted%20Array%20(Easy).md)
+
+Stack
+- [20. Valid Parenthesis (Easy)](20.%20Valid%20Parenthesis%20(Easy).md)
