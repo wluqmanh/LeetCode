@@ -8,3 +8,6 @@ Array/String
 
 Stack
 - [20. Valid Parenthesis (Easy)](20.%20Valid%20Parenthesis%20(Easy).md)
+
+Math
+- [9. Palindrome Number (Easy)](9.%20Palindrome%20Number%20(Easy).md)
