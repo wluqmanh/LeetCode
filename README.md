@@ -11,3 +11,6 @@ Stack
 
 Math
 - [9. Palindrome Number (Easy)](9.%20Palindrome%20Number%20(Easy).md)
+
+Dynamic Programming
+- [70. Climbing Stairs (Easy)](70.%20Climbing%20Stairs%20(Easy).md)
