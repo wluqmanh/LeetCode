@@ -1,16 +1,16 @@
 Currently completing: https://leetcode.com/studyplan/top-interview-150/
 
 Hash Table
-- [01. Two Sum (Easy)](01.%20Two%20Sum%20(Easy).md)
+- [001. Two Sum (Easy)](001.%20Two%20Sum%20(Easy).md)
 
 Array/String
-- [88. Merge Sorted Array (Easy)](88.%20Merge%20Sorted%20Array%20(Easy).md)
+- [088. Merge Sorted Array (Easy)](088.%20Merge%20Sorted%20Array%20(Easy).md)
 
 Stack
-- [20. Valid Parenthesis (Easy)](20.%20Valid%20Parenthesis%20(Easy).md)
+- [020. Valid Parenthesis (Easy)](020.%20Valid%20Parenthesis%20(Easy).md)
 
 Math
-- [9. Palindrome Number (Easy)](9.%20Palindrome%20Number%20(Easy).md)
+- [009. Palindrome Number (Easy)](009.%20Palindrome%20Number%20(Easy).md)
 
 Dynamic Programming
-- [70. Climbing Stairs (Easy)](70.%20Climbing%20Stairs%20(Easy).md)
+- [070. Climbing Stairs (Easy)](070.%20Climbing%20Stairs%20(Easy).md)
