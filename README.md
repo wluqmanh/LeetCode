@@ -14,3 +14,6 @@ Math
 
 Dynamic Programming
 - [070. Climbing Stairs (Easy)](070.%20Climbing%20Stairs%20(Easy).md)
+
+Linked List
+- [141. Linked List Cycle (Easy)](141.%20Linked%20List%20Cycle%20(Easy).md)
